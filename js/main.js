@@ -5,9 +5,10 @@ function getData(){
 
     let city = document.querySelector("#city").value 
     // console.log(city)
+    let apiKey = "YOUR-API-KEY"
 
     
-    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=790ca6e3712030fda498f6642597e889&units=imperial`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`)
     .then(response => response.json())
     .then(
         rawData => {

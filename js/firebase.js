@@ -1,5 +1,5 @@
 var firebaseConfig = {
-    apiKey: "AIzaSyDOfg17PGSqOcCPVQTfmtDjRS9wl7Yjx40",
+    apiKey: "YOUR-API-KEY",
     authDomain: "employee-6a25d.firebaseapp.com",
     databaseURL: "https://employee-6a25d-default-rtdb.firebaseio.com",
     projectId: "employee-6a25d",
